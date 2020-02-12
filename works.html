@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>yuzhou</title>
+</head>
+	<style type="text/css">
+		body{
+			padding: 0px;
+			margin: 0px;
+			overflow-x: hidden;		}
+
+	.container-one{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		height: 800px;
+	}
+
+	.container-two{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		height: 600px;
+	}
+
+	.A .a-top{
+		display: none;
+		position: absolute;
+		top: 10%;
+		left: 0%;
+		transform: translateX(50%);
+		z-index: 99;
+	}
+
+	.A:hover .a-top{
+		display: flex;
+	}
+
+	.B .b-top{
+		display: none;
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		transform: translateX(-45%);
+		z-index: 99;
+	}
+
+	.B:hover .b-top{
+		display: flex;
+	}
+
+	.C .c-top{
+		display: none;
+		position: absolute;
+		top: 10%;
+		left: 100%;
+		transform: translateX(-125%);
+		z-index: 99;
+	}
+
+	.C:hover .c-top{
+		display: flex;
+	}
+
+	.D .d-top{
+		display: none;
+		position: absolute;
+		top: 55%;
+		left: 0%;
+		transform: translateX(50%);
+		z-index: 99;
+	}
+
+	.D:hover .d-top{
+		display: flex;
+	}
+
+	.E .e-top{
+		display: none;
+		position: absolute;
+		top: 55%;
+		left: 50%;
+		transform: translateX(-45%);
+		z-index: 99;
+	}
+
+	.E:hover .e-top{
+		display: flex;
+	}
+	.F .f-top{
+		display: none;
+		position: absolute;
+		top: 55%;
+		left: 100%;
+		transform: translateX(-125%);
+		z-index: 99;
+	}
+
+	.F:hover .f-top{
+		display: flex;
+	}
+	</style>
+<body>
+
+	<div class="container-one">
+		<div class="A">
+	<img class="a" src="a.jpg" width="120%;">
+	<img class="a-top" src="a-top.jpg">
+		</div>
+		<div class="B">
+	<img class="b" src="b.jpg" width="100%;">
+	<img class="b-top" src="b-top.jpg">
+		</div>
+		<div class="C">
+	<img class="c" src="c.jpg" width="120%;">
+	<img class="c-top" src="c-top.jpg">
+		</div>
+	</div>
+
+	<div class="container-two">
+		<div class="D">
+	<img class="d" src="d.jpg" width="120%;">
+	<img class="d-top" src="d-top.jpg">
+		</div>
+		<div class="E">
+	<img class="e" src="e.jpg" width="120%;">
+	<img class="e-top" src="e-top.jpg">
+		</div>
+		<div class="F">
+	<img class="f" src="f.jpg" width="120%;">
+	<img class="f-top" src="f-top.jpg">
+	</div>
+	</div>
+
+
+</body>
+</html>
